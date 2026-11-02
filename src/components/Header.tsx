@@ -14,7 +14,7 @@
                 style={{
                     position: "absolute",
                     inset: 0,
-                    backgroundImage: "url('/banner.jpg')",
+                    backgroundImage: `url('${import.meta.env.BASE_URL}banner.jpg')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center"
                 }}
